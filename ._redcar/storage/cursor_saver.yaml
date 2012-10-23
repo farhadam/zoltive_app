@@ -1,4 +1,15 @@
 --- 
-cursor_positions: []
-
+cursor_positions: 
+  - :path: config/routes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-23 02:03:56.907000 -04:00
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-21 20:13:23.294000 -04:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 201
+    :timestamp: 2012-10-23 01:38:21.168000 -04:00
+  - :path: spec/requests/static_pages_spec.rb
+    :cursor_offset: 388
+    :timestamp: 2012-10-23 01:55:20.383000 -04:00
 files_to_retain: 0

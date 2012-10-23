@@ -1,8 +1,527 @@
-1350866620
+1350973955
+Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters.rb	  module Adapters
+Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	  module Adapters
+Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	  module Adapters
+Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/padrino.rb	  module Adapters
+Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	  module Adapters
+Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	  module Adapters
 Application	C:/Sites/zoltive/zoltive_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/zoltive/zoltive_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/zoltive/zoltive_app/app/helpers/application_helper.rb	module ApplicationHelper
+Base	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	    class Base
+Base	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	    class Base
+Breadcrumbs	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	    class Breadcrumbs 
 BrowsingTest	C:/Sites/zoltive/zoltive_app/test/performance/browsing_test.rb	class BrowsingTest 
+ClassMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    module ClassMethods
+Configuration	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	  class Configuration
+ControllerMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	  module ControllerMethods
+ControllerMock	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	  class ControllerMock
+Helpers	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	  module Helpers
+InstanceMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    module InstanceMethods
+Item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	  class Item
+Item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	  class Item
+ItemAdapter	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	  class ItemAdapter
+ItemContainer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	  class ItemContainer
+ItemContainer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	  class ItemContainer
+ItemsProvider	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/items_provider.rb	  class ItemsProvider
+Links	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/links.rb	    class Links 
+List	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/list.rb	    class List 
+MAJOR	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	    MAJOR =
+Nanoc	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	    class Nanoc 
+NavigationConfigGenerator	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/generators/navigation_config/navigation_config_generator.rb	class NavigationConfigGenerator 
+NavigationConfigGenerator	C:/Sites/zoltive/zoltive_app/simple-navigation/generators/navigation_config/navigation_config_generator.rb	class NavigationConfigGenerator 
+Padrino	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/padrino.rb	    class Padrino 
+RAILS_ENV	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	RAILS_ENV =
+RAILS_ROOT	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	RAILS_ROOT =
+Rails	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	module Rails
+Rails	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	    class Rails 
+Railtie	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	    class Railtie 
+Renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering.rb	  module Renderer
+Renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/text.rb	  module Renderer
+Renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/list.rb	  module Renderer
+Renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/links.rb	  module Renderer
+Renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	  module Renderer
+Renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	  module Renderer
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/text.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/list.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/links.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/items_provider.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	  module SimpleNavigation 
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/padrino.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	module SimpleNavigation
+SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	module SimpleNavigation
+Sinatra	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	    class Sinatra 
+StaticPagesController	C:/Sites/zoltive/zoltive_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesControllerTest	C:/Sites/zoltive/zoltive_app/test/functional/static_pages_controller_test.rb	class StaticPagesControllerTest 
+StaticPagesHelper	C:/Sites/zoltive/zoltive_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+StaticPagesHelperTest	C:/Sites/zoltive/zoltive_app/test/unit/helpers/static_pages_helper_test.rb	class StaticPagesHelperTest 
 TestCase	C:/Sites/zoltive/zoltive_app/test/test_helper.rb	class ActiveSupport::TestCase
+TestController	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	      class TestController
+Text	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/text.rb	    class Text 
+VERSION	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	  module VERSION
 ZoltiveApp	C:/Sites/zoltive/zoltive_app/config/application.rb	module ZoltiveApp
+a_tags	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	      def a_tags(item_container)
+about	C:/Sites/zoltive/zoltive_app/app/controllers/static_pages_controller.rb	  def about
+active_item_container_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def active_item_container_for(level)
+active_item_container_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def active_item_container_for(desired_level)
+active_leaf_class	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def active_leaf_class
+active_leaf_class	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_accessor :renderer, :selected_class, :active_leaf_class, :autogenerate_item_ids, :id_generator, :auto_highlight, :name_generator
+active_leaf_container	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def active_leaf_container
+active_navigation_item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	    def active_navigation_item(options={},value_for_nil = nil)
+active_navigation_item_container	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	    def active_navigation_item_container(options={},&block)
+active_navigation_item_key	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	    def active_navigation_item_key(options={})
+active_navigation_item_name	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	    def active_navigation_item_name(options={})
+adapter	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+adapter	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      attr_reader :options, :adapter
+adapter_class	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+and	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	          it "should render class and 
+and	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	    context 'setting class and 
+apply_defaults	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def apply_defaults(options)
+apply_defaults	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	      def apply_defaults(options)
+args	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	      def args(*args)
+auto_highlight	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    attr_accessor :renderer, :dom_id, :dom_class, :auto_highlight
+auto_highlight	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_accessor :renderer, :selected_class, :active_leaf_class, :autogenerate_item_ids, :id_generator, :auto_highlight, :name_generator
+auto_highlight?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def auto_highlight?
+autogenerate_item_ids	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_accessor :renderer, :selected_class, :active_leaf_class, :autogenerate_item_ids, :id_generator, :auto_highlight, :name_generator
+autogenerate_item_ids?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def autogenerate_item_ids?
+autogenerated_item_id	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def autogenerated_item_id
+be subclass responsability	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/base_spec.rb	it "be subclass responsability" do
+before_filter	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	          def before_filter(*args)
+blackbox_setup	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	  def blackbox_setup()
+call_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	        def call_navigation(key1, key2=nil)
+config	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def config
+config_file	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def config_file(navigation_context = :default)
+config_file?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def config_file?(navigation_context = :default)
+config_file_name	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def config_file_name(navigation_context = :default)
+config_file_path=	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def config_file_path=(path)
+config_file_paths	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+config_files	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+consider_sub_navigation?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def consider_sub_navigation?(item)
+contact	C:/Sites/zoltive/zoltive_app/app/controllers/static_pages_controller.rb	  def contact
+containers	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def containers
+content_tag	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def content_tag(type, content, options={})
+content_tag	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def content_tag(type, content, options={})
+content_tag	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/padrino.rb	      def content_tag(type, content, options={})
+content_tag	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	      def content_tag(type, content, options={})
+content_tag	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      def content_tag(type, content, options={});
+context	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      attr_reader :context, :request
+context_for_eval	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def context_for_eval
+context_for_eval	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def context_for_eval
+context_for_eval	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	      def context_for_eval
+context_for_eval	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      def context_for_eval;
+controller	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      attr_reader :controller, :template
+create_adapter	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/sinatra_spec.rb	  def create_adapter
+create_adapter	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	  def create_adapter
+create_adapter	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/padrino_spec.rb	  def create_adapter
+current_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	      def current_navigation(*args)
+current_navigation_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def current_navigation_for(level)
+current_page?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def current_page?(url)
+current_page?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def current_page?(url)
+current_page?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	      def current_page?(url)
+current_page?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      def current_page?(url);
+default_config_file_path	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def default_config_file_path
+default_renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+dom_class	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    attr_accessor :renderer, :dom_id, :dom_class, :auto_highlight
+dom_id	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    attr_accessor :renderer, :dom_id, :dom_class, :auto_highlight
+empty?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def empty?
+environment	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+eval_config	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	      def eval_config(navigation_context = :default)
+evaluate_method	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def evaluate_method(method) 
+expand_all?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def expand_all?
+expand_sub_navigation?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def expand_sub_navigation?(item)
+explicit_navigation_args	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def explicit_navigation_args
+extract_controller_from	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def extract_controller_from(context)
+framework	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def framework
+handle_explicit_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def handle_explicit_navigation
+helper_method	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	          def helper_method(*args)
+highlights_on	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    attr_reader :key, :url, :sub_navigation, :method, :highlights_on
+home	C:/Sites/zoltive/zoltive_app/app/controllers/static_pages_controller.rb	  def home
+html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def html_options
+html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    attr_writer :html_options
+html_safe	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def html_safe(input)
+id_generator	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_accessor :renderer, :selected_class, :active_leaf_class, :autogenerate_item_ids, :id_generator, :auto_highlight, :name_generator
+include_sub_navigation?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def include_sub_navigation?(item)
+included	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def self.included(base) 
+init_adapter_from	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def init_adapter_from(context)
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def initialize(options) 
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def initialize(level=1) 
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	    def initialize(item)
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/items_provider.rb	    def initialize(provider)
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def initialize(container, key, name, url_or_options = {}, options_or_nil={}, items=nil, &sub_nav_block)
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    def initialize
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def initialize(context)
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def initialize(context)
+initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	      def initialize(ctx)
+item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def item(key, name, url_or_options = {}, options_or_nil = {}, &block)
+item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	    attr_reader :item
+items	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    attr_reader :items, :level
+items	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	    def items
+items	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/items_provider.rb	    def items
+items	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    def items(items_provider=nil, &block)
+items=	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def items=(items)
+join_with	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/links.rb	      def join_with
+join_with	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	      def join_with
+key	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    attr_reader :key, :url, :sub_navigation, :method, :highlights_on
+level	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def level
+level	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    attr_reader :items, :level
+level_for_item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def level_for_item(navi_key)
+link_options_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	      def link_options_for(item)
+link_options_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def link_options_for(item)
+link_to	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def link_to(name, url, options={})
+link_to	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def link_to(name, url, options={})
+link_to	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/padrino.rb	      def link_to(name, url, options={})
+link_to	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	      def link_to(name, url, options={})
+link_to	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      def link_to(name, url, options={});
+list	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/text.rb	      def list(item_container)
+load_adapter	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def load_adapter
+load_config	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def load_config(navigation_context = :default)
+load_config	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	      def load_config(options,includer,&block)
+loaded?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    def loaded?
+manifest	C:/Sites/zoltive/zoltive_app/simple-navigation/generators/navigation_config/navigation_config_generator.rb	  def manifest
+method	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    attr_reader :key, :url, :sub_navigation, :method, :highlights_on
+name	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def name(options = {})
+name_generator	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_accessor :renderer, :selected_class, :active_leaf_class, :autogenerate_item_ids, :id_generator, :auto_highlight, :name_generator
+navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	      def navigation(*args)
+navigation_config	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/generators/navigation_config/navigation_config_generator.rb	  def navigation_config
+options	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      attr_reader :options, :adapter
+options	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	    def options
+options_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/links.rb	      def options_for(item)
+options_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def options_for(item)
+or	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	        it "should not render class or 
+parse_explicit_navigation_args	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def parse_explicit_navigation_args
+prefix_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	      def prefix_for(content)
+primary_container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def primary_container
+primary_item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def primary_item(key)
+primary_items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def primary_items
+primary_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def primary_navigation
+primary_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_reader :primary_navigation
+provider	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/items_provider.rb	    attr_reader :provider
+rails3?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def self.rails3?
+rails_env	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def self.rails_env
+rails_root	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def self.rails_root
+register	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def self.register
+register	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def self.register
+register	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/padrino.rb	      def self.register
+register	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	        def register(root)
+register	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      def self.register;
+register_renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def register_renderer(renderer_hash)
+registered_renderers	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/text_spec.rb	    def render(current_nav=nil, options={:level => :all})
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	    def render(current_nav=nil, options={:level => :all})
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	    def render(current_nav=nil, options={:level => :all})
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	    def render(current_nav=nil, options={:level => :all})
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/text.rb	      def render(item_container)
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/list.rb	      def render(item_container)
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/links.rb	      def render(item_container)
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	      def render(item_container)
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def render(item_container)
+render	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def render(options={})
+render_container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	        def render_container(options={})
+render_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	    def render_navigation(options={},&block)
+render_sub_navigation_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def render_sub_navigation_for(item)
+renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    attr_accessor :renderer, :dom_id, :dom_class, :auto_highlight
+renderer	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_accessor :renderer, :selected_class, :active_leaf_class, :autogenerate_item_ids, :id_generator, :auto_highlight, :name_generator
+request	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      attr_reader :context, :request
+request_path	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def request_path
+request_path	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def request_path
+request_path	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      def request_path;
+request_uri	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def request_uri
+request_uri	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def request_uri
+request_uri	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	      def request_uri;
+root	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	  mattr_accessor :adapter_class, :adapter, :config_files, :config_file_paths, :default_renderer, :registered_renderers, :root, :environment
+root_path_match?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def root_path_match?
+run	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	      def run(&block)
+select_item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def select_item(key)
+selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	          it {@item.html_options[:class].should == 'my_class selected 
+selected?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def selected?
+selected?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def selected?
+selected_by_condition?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def selected_by_condition?
+selected_by_config?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def selected_by_config?
+selected_by_config?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def selected_by_config?
+selected_by_subnav?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def selected_by_subnav?
+selected_class	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def selected_class
+selected_class	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/configuration.rb	    attr_accessor :renderer, :selected_class, :active_leaf_class, :autogenerate_item_ids, :id_generator, :auto_highlight, :name_generator
+selected_item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def selected_item
+selected_item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def selected_item
+selected_sub_navigation?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def selected_sub_navigation?
+set_env	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def set_env(root, environment)
+setup_adapter_for	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def setup_adapter_for(framework)
+setup_renderer_for	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def setup_renderer_for(renderer_class, framework, options)
+setup_url_and_options	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def setup_url_and_options(url_or_options, options_or_nil)
+should access the correct instance_var in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should access the correct instance_var in the controller" do
+should add an a tag for each selected item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should add an a tag for each selected item" do
+should add an entry for each selected item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/text_spec.rb	it "should add an entry for each selected item" do
+should add the created item to the list of items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should add the created item to the list of items" do
+should add the created item to the list of items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should add the created item to the list of items" do
+should add the default-config path to the list of config_file_paths	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should add the default-config path to the list of config_file_paths" do
+should add the item to the items-collection	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should add the item to the items-collection" do
+should add the li attributes to the li element	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should add the li attributes to the li element" do
+should add the link attributes to the link	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should add the link attributes to the link" do
+should add the specified renderer to the list of renderers	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should add the specified renderer to the list of renderers" do
+should also mark the links inside the selected li's as selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should also mark the links inside the selected li's as selected" do
+should apply the name generator	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should apply the name generator" do
+should apply the name generator	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should apply the name generator" do
+should assign the ItemContainer to an instance-var	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should assign the ItemContainer to an instance-var" do
+should be empty if there are no items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should be empty if there are no items" do
+should be possible to identify sub items using an html selector (using ids)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should be possible to identify sub items using an html selector (using ids)" do
+should call items on the provider object	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should call items on the provider object" do
+should call recursively on the sub_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should call recursively on the sub_navigation" do
+should call recursively on the sub_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should call recursively on the sub_navigation" do
+should call render on the active item_container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should call render on the active item_container" do
+should call render on the container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should call render on the container" do
+should call render on the primary_navigation (specifying level through options)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should call render on the primary_navigation (specifying level through options)" do
+should call render on the renderer and pass self	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should call render on the renderer and pass self" do
+should call render on the renderer and pass self	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should call render on the renderer and pass self" do
+should call render on the renderer and pass self	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should call render on the renderer and pass self" do
+should call render on the sub_navigation (passing the options)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/base_spec.rb	it "should call render on the sub_navigation (passing the options)" do
+should call set_env	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should call set_env" do
+should call the block	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should call the block" do
+should call the configured generator with the key as param	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should call the configured generator with the key as param" do
+should call the method specified by symbol on the context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/items_provider_spec.rb	it "should call the method specified by symbol on the context" do
+should check for autohighlighting	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should check for autohighlighting" do
+should consider the Integer to lookup the active container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should consider the Integer to lookup the active container" do
+should convert camelcase-contexts to underscore	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should convert camelcase-contexts to underscore" do
+should convert the item to a SimpleNavigation::Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should convert the item to a SimpleNavigation::Item" do
+should create a SimpleNavigation::Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should create a SimpleNavigation::Item" do
+should create a SimpleNavigation::Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should create a SimpleNavigation::Item" do
+should create a new ItemContainer with a level+1	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should create a new ItemContainer with a level+1" do
+should create a new ItemContainer with a level+1	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should create a new ItemContainer with a level+1" do
+should create a new Navigation-Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should create a new Navigation-Item" do
+should create a new Navigation-Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should create a new Navigation-Item" do
+should create a new Navigation-Item with the given params and the specified block	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should create a new Navigation-Item with the given params and the specified block" do
+should create a new Navigation_item with the given params and nil as sub_navi	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should create a new Navigation_item with the given params and nil as sub_navi" do
+should create an new Provider object for the specified provider	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should create an new Provider object for the specified provider" do
+should delegate key to item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should delegate key to item" do
+should delegate key to item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should delegate key to item" do
+should delegate name to item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should delegate name to item" do
+should delegate name to item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should delegate name to item" do
+should delegate the call to the template	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should delegate the call to the template" do
+should delegate the call to the template (with html_safe text)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should delegate the call to the template (with html_safe text)" do
+should delegate the call to the template (with html_safe text)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should delegate the call to the template (with html_safe text)" do
+should delegate to context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/padrino_spec.rb	it "should delegate to context" do
+should delegate to context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/padrino_spec.rb	it "should delegate to context" do
+should delegate url to item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should delegate url to item" do
+should delegate url to item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should delegate url to item" do
+should eval the config on every request	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should eval the config on every request" do
+should extend the ActionController::Base with the Helpers	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should extend the ActionController::Base with the Helpers" do
+should extend the ClassMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should extend the ClassMethods" do
+should find the selected sub_navigation for the specified level	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should find the selected sub_navigation for the specified level" do
+should find the selected sub_navigation for the specified level	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should find the selected sub_navigation for the specified level" do
+should get the items from the items_provider	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/items_provider_spec.rb	it "should get the items from the items_provider" do
+should give the a-tag the default id (stringified key) if no id is specified in the html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should give the a-tag the default id (stringified key) if no id is specified in the html_options" do
+should give the a-tag the id specified in the html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should give the a-tag the id specified in the html_options" do
+should give the li the default id (stringified key) if no id is specified in the html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should give the li the default id (stringified key) if no id is specified in the html_options" do
+should give the li the default id (stringified key) if no id is specified in the html_options for the li-element	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should give the li the default id (stringified key) if no id is specified in the html_options for the li-element" do
+should give the li the id specified in the html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should give the li the id specified in the html_options" do
+should have an empty items-array	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should have an empty items-array" do
+should have converted the item into an object	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should have converted the item into an object" do
+should have registered the builtin renderers by default	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should have registered the builtin renderers by default" do
+should include the InstanceMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should include the InstanceMethods" do
+should install the helper methods in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should install the helper methods in the controller" do
+should instance_eval the default config_file-string inside the context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should instance_eval the default config_file-string inside the context" do
+should instance_eval the specified config_file-string inside the context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should instance_eval the specified config_file-string inside the context" do
+should instantiate the container's renderer with the options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should instantiate the container's renderer with the options" do
+should instantiate the passed renderer_class with the options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should instantiate the passed renderer_class with the options" do
+should instantiate the passed renderer_class with the options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should instantiate the passed renderer_class with the options" do
+should load the config file only once	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should load the config file only once" do
+should load the config file twice	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should load the config file twice" do
+should load the config file twice	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should load the config file twice" do
+should load the config file twice	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should load the config file twice" do
+should load the config-file for the default context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should load the config-file for the default context" do
+should load the config-file for the specified context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should load the config-file for the specified context" do
+should lookup the active_item_container based on the level	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should lookup the active_item_container based on the level" do
+should mark the matching a-item as selected (with the css_class specified in configuration)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should mark the matching a-item as selected (with the css_class specified in configuration)" do
+should mark the matching li-item as selected (with the css_class specified in configuration)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should mark the matching li-item as selected (with the css_class specified in configuration)" do
+should match if both url == /	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should match if both url == /" do
+should nest the current_primary's subnavigation inside the selected li-element	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should nest the current_primary's subnavigation inside the selected li-element" do
+should not add the item to the items-collection	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should not add the item to the items-collection" do
+should not apply the generator	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should not apply the generator" do
+should not apply the name generator (since it is text only)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/text_spec.rb	it "should not apply the name generator (since it is text only)" do
+should not apply the the default id where there is an id specified in the html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should not apply the the default id where there is an id specified in the html_options" do
+should not apply the the default id where there is an id specified in the html_options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should not apply the the default id where there is an id specified in the html_options" do
+should not apply the the default id where there is an id specified in the html_options for th li-element	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should not apply the the default id where there is an id specified in the html_options for th li-element" do
+should not be empty if there are some items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should not be empty if there are some items" do
+should not be queried when url is nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not be queried when url is nil" do
+should not call render	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should not call render" do
+should not check for autohighlighting	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not check for autohighlighting" do
+should not convert the item to a SimpleNavigation::Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should not convert the item to a SimpleNavigation::Item" do
+should not create a new ItemContainer	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not create a new ItemContainer" do
+should not create a new Navigation-Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should not create a new Navigation-Item" do
+should not create a new Navigation-Item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should not create a new Navigation-Item" do
+should not evaluate the subnav or urls	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not evaluate the subnav or urls" do
+should not have an instance-method 'sn_set_navigation' if navigation-method has not been called	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should not have an instance-method 'sn_set_navigation' if navigation-method has not been called" do
+should not mark any links as selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should not mark any links as selected" do
+should not mark any of the items as selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should not mark any of the items as selected" do
+should not mark any of the items as selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should not mark any of the items as selected" do
+should not match if item url is not /	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not match if item url is not /" do
+should not match if request url is not /	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not match if request url is not /" do
+should not match if url is nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not match if url is nil" do
+should not match if urls do not match	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should not match if urls do not match" do
+should not raise an error	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should not raise an error" do
+should not raise an error	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should not raise an error" do
+should not render a ul tag for the empty container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should not render a ul tag for the empty container" do
+should not render any a-tag in the div-tag	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should not render any a-tag in the div-tag" do
+should not render class or id	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should not render class or id" do
+should not render link for leaf	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should not render link for leaf" do
+should not render the invoices submenu if the user-primary is active	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should not render the invoices submenu if the user-primary is active" do
+should not set the current_navigation instance var in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should not set the current_navigation instance var in the controller" do
+should not set the items directly	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should not set the items directly" do
+should not set the items on the container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should not set the items on the container" do
+should override the config_file_paths	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should override the config_file_paths" do
+should pass a valid levels options as level	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it  "should pass a valid levels options as level" do
+should pass the specified html_options to the a element	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should pass the specified html_options to the a element" do
+should pass the specified html_options to the li element	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should pass the specified html_options to the li element" do
+should raise an ArgumentError	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should raise an ArgumentError" do
+should raise an ArgumentError	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should raise an ArgumentError" do
+should raise an error	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should raise an error" do
+should raise an error	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should raise an error" do
+should raise an error	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should raise an error" do
+should raise error if no context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/sinatra_spec.rb	it "should raise error if no context" do
+should read the specified config file from disc	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should read the specified config file from disc" do
+should remove anchors before testing the item's url	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should remove anchors before testing the item's url" do
+should remove if from options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should remove if from options" do
+should remove unless from options	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should remove unless from options" do
+should render a div-tag around the items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should render a div-tag around the items" do
+should render a div-tag around the items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should render a div-tag around the items" do
+should render a li tag for each item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render a li tag for each item" do
+should render a span-tag inside each li-tag (for items without links)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render a span-tag inside each li-tag (for items without links)" do
+should render a ul tag for the container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render a ul tag for the container" do
+should render a ul tag for the container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render a ul tag for the container" do
+should render a ul tag for the empty container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render a ul tag for the empty container" do
+should render a ul-tag around the items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render a ul-tag around the items" do
+should render an a-tag for each item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should render an a-tag for each item" do
+should render an a-tag inside each li-tag (for items with links)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render an a-tag inside each li-tag (for items with links)" do
+should render class and id	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should render class and id" do
+should render link for non-leaes	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should render link for non-leaes" do
+should render the invoices submenu even if the user-primary is active	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "should render the invoices submenu even if the user-primary is active" do
+should render the selected a tags	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "should render the selected a tags" do
+should render the selected page	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/text_spec.rb	it "should render the selected page" do
+should return a link	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/sinatra_spec.rb	it "should return a link" do
+should return a tag	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/sinatra_spec.rb	it "should return a tag" do
+should return an empty hash	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return an empty hash" do
+should return an empty hash	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return an empty hash" do
+should return false if current does not match key	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should return false if current does not match key" do
+should return false if no primary_nav is set	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should return false if no primary_nav is set" do
+should return false if subnav is not selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should return false if subnav is not selected" do
+should return itsself	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should return itsself" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return nil" do
+should return nil	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return nil" do
+should return nil if no item exists for the specified navi_key	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should return nil if no item exists for the specified navi_key" do
+should return nil if no item is selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should return nil if no item is selected" do
+should return the collection itsself	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/items_provider_spec.rb	it "should return the collection itsself" do
+should return the context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/sinatra_spec.rb	it "should return the context" do
+should return the context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should return the context" do
+should return the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should return the controller" do
+should return the currently active leaf-container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return the currently active leaf-container" do
+should return the explicitely selected item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should return the explicitely selected item" do
+should return the item with the specified navi_key	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should return the item with the specified navi_key" do
+should return the item's options'	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return the item's options'" do
+should return the item's options'	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return the item's options'" do
+should return the items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return the items" do
+should return the items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should return the items" do
+should return the items of the provider	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/items_provider_spec.rb	it "should return the items of the provider" do
+should return the items returned by the helper method	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/items_provider_spec.rb	it "should return the items returned by the helper method" do
+should return the name of the config file matching the specified context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return the name of the config file matching the specified context" do
+should return the name of the default config file	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return the name of the default config file" do
+should return the path to the config_file	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return the path to the config_file" do
+should return the path to the first matching config_file	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return the path to the first matching config_file" do
+should return the primary_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should return the primary_navigation" do
+should return the selected item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should return the selected item" do
+should return the selected item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should return the selected item" do
+should return true if current matches key	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should return true if current matches key" do
+should return true if one item is selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should return true if one item is selected" do
+should return true if primary_nav is set	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should return true if primary_nav is set" do
+should return true if subnav is selected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should return true if subnav is selected" do
+should separate the items with the separator	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/text_spec.rb	it "should separate the items with the separator" do
+should separate the items with the separator	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "should separate the items with the separator" do
+should set auto_highlight to true as default	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set auto_highlight to true as default" do
+should set autogenerate_item_ids to true as default	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set autogenerate_item_ids to true as default" do
+should set the List-Renderer as default upon initialize	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set the List-Renderer as default upon initialize" do
+should set the active_leaf_class to 'simple-navigation-active-leaf' as default	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set the active_leaf_class to 'simple-navigation-active-leaf' as default" do
+should set the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should set the controller" do
+should set the correct instance var in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should set the correct instance var in the controller" do
+should set the correct instance var in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should set the correct instance var in the controller" do
+should set the correct instance var in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should set the correct instance var in the controller" do
+should set the correct instance var in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should set the correct instance var in the controller" do
+should set the environment	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should set the environment" do
+should set the id_generator	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set the id_generator" do
+should set the item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should set the item" do
+should set the item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should set the item" do
+should set the items directly	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	it "should set the items directly" do
+should set the items on the container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set the items on the container" do
+should set the items on the subnav_container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should set the items on the subnav_container" do
+should set the name_generator	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set the name_generator" do
+should set the provider	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/items_provider_spec.rb	it "should set the provider" do
+should set the renderer to the globally-configured renderer per default	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should set the renderer to the globally-configured renderer per default" do
+should set the root	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should set the root" do
+should set the selected_class to 'selected' as default	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should set the selected_class to 'selected' as default" do
+should set the sn_current_navigation_args as specified	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should set the sn_current_navigation_args as specified" do
+should set the sn_current_navigation_args as specified	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should set the sn_current_navigation_args as specified" do
+should should yield an new ItemContainer	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should should yield an new ItemContainer" do
+should should yield an new ItemContainer	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should should yield an new ItemContainer" do
+should store the content in the module (non default context)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should store the content in the module (non default context)" do
+should store the read content in the module (default context)	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should store the read content in the module (default context)" do
+should take the min of the range to lookup the active container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should take the min of the range to lookup the active container" do
+should test with the item's url	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_spec.rb	it "should test with the item's url" do
+should treat :level and :levels options the same	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	describe "should treat :level and :levels options the same" do
+should wrap each item in an ItemAdapter	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should wrap each item in an ItemAdapter" do
+should yield the singleton Configuration object	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should yield the singleton Configuration object" do
+should_add_item?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_container.rb	    def should_add_item?(options) 
+sinatra_environment	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def self.sinatra_environment
+sinatra_root	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def self.sinatra_root
+skip_if_empty?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def skip_if_empty?
+source_root	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/generators/navigation_config/navigation_config_generator.rb	  def self.source_root
+specified	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	        it "should mark the matching li-item as selected (with the css_class specified 
+specified	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	        it "should mark the matching a-item as selected (with the css_class specified 
+stub_loading_config	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	    def stub_loading_config
+sub_item	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def sub_item(key)
+sub_items	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def sub_items
+sub_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    attr_reader :key, :url, :sub_navigation, :method, :highlights_on
+subnav_container	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/spec_helper.rb	def subnav_container
+suppress_link?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/breadcrumbs.rb	      def suppress_link?(item)
+suppress_link?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def suppress_link?(item)
+tag_for	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/renderer/base.rb	      def tag_for(item)
+template	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      attr_reader :controller, :template
+template_from	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def template_from(controller)
 test_homepage	C:/Sites/zoltive/zoltive_app/test/performance/browsing_test.rb	  def test_homepage
+the created method should be protected	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "the created method should be protected" do
+the created method should not be public	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "the created method should not be public" do
+the rendered div-tag should have the specified class	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "the rendered div-tag should have the specified class" do
+the rendered div-tag should have the specified class	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "the rendered div-tag should have the specified class" do
+the rendered div-tag should have the specified dom_id	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/links_spec.rb	it "the rendered div-tag should have the specified dom_id" do
+the rendered div-tag should have the specified dom_id	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/breadcrumbs_spec.rb	it "the rendered div-tag should have the specified dom_id" do
+the rendered ul-tag should have the specified class	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "the rendered ul-tag should have the specified class" do
+the rendered ul-tag should have the specified dom_id	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/renderer/list_spec.rb	it "the rendered ul-tag should have the specified dom_id" do
+to	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	    it "should set the selected_class to 
+to	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	    it "should set the active_leaf_class to 
+to_attributes	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	      def to_attributes(options)
+to_attributes	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	      def to_attributes(options)
+to_object	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	    def to_object(hash)
+to_simple_navigation_item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item_adapter.rb	    def to_simple_navigation_item(item_container)
+url	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    attr_reader :key, :url, :sub_navigation, :method, :highlights_on
+url_without_anchor	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    def url_without_anchor
+whitebox_setup	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	  def whitebox_setup
+with	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	        it "should instantiate the passed renderer_class with 
+with	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	        it "should instantiate the passed renderer_class with 
