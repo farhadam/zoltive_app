@@ -1,4 +1,4 @@
-1350973955
+1351474274
 Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters.rb	  module Adapters
 Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	  module Adapters
 Adapters	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	  module Adapters
@@ -17,6 +17,7 @@ Configuration	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigati
 ControllerMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	  module ControllerMethods
 ControllerMock	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rendering/helpers_spec.rb	  class ControllerMock
 Helpers	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rendering/helpers.rb	  module Helpers
+Home page	C:/Sites/zoltive/zoltive_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 InstanceMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    module InstanceMethods
 Item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	  class Item
 Item	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	  class Item
@@ -64,6 +65,7 @@ SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navig
 SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/nanoc.rb	module SimpleNavigation
 SimpleNavigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/base.rb	module SimpleNavigation
 Sinatra	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/sinatra.rb	    class Sinatra 
+Static pages	C:/Sites/zoltive/zoltive_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Sites/zoltive/zoltive_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesControllerTest	C:/Sites/zoltive/zoltive_app/test/functional/static_pages_controller_test.rb	class StaticPagesControllerTest 
 StaticPagesHelper	C:/Sites/zoltive/zoltive_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
@@ -145,6 +147,7 @@ expand_sub_navigation?	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple
 explicit_navigation_args	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def explicit_navigation_args
 extract_controller_from	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/adapters/rails.rb	      def extract_controller_from(context)
 framework	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation.rb	    def framework
+full_title	C:/Sites/zoltive/zoltive_app/app/helpers/application_helper.rb	  def full_title(page_title)
 handle_explicit_navigation	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/rails_controller_methods.rb	    def handle_explicit_navigation
 helper_method	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	          def helper_method(*args)
 highlights_on	C:/Sites/zoltive/zoltive_app/simple-navigation/lib/simple_navigation/core/item.rb	    attr_reader :key, :url, :sub_navigation, :method, :highlights_on
@@ -329,6 +332,8 @@ should give the li the id specified in the html_options	C:/Sites/zoltive/zoltive
 should have an empty items-array	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_container_spec.rb	it "should have an empty items-array" do
 should have converted the item into an object	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/item_adapter_spec.rb	it "should have converted the item into an object" do
 should have registered the builtin renderers by default	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation_spec.rb	it "should have registered the builtin renderers by default" do
+should have the h1 'Sample App'	C:/Sites/zoltive/zoltive_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Sample App'" do
+should have the title 'Home'	C:/Sites/zoltive/zoltive_app/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
 should include the InstanceMethods	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/rails_controller_methods_spec.rb	it "should include the InstanceMethods" do
 should install the helper methods in the controller	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/adapters/rails_spec.rb	it "should install the helper methods in the controller" do
 should instance_eval the default config_file-string inside the context	C:/Sites/zoltive/zoltive_app/simple-navigation/spec/lib/simple_navigation/core/configuration_spec.rb	it "should instance_eval the default config_file-string inside the context" do
