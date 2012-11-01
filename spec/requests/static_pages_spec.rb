@@ -15,5 +15,9 @@ describe "Static pages" do
                         :text => "Home")
     end
   end
-
+  
+  describe "About page" do
+    visit about_path
+  end
+  
 end
