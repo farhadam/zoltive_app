@@ -1,0 +1,47 @@
+.container{
+  margin-left:auto;
+	margin-right:auto;
+  width:964px;
+  
+}
+
+.content {
+  background-color: #eee;
+  padding: 40px 20px 20px 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 20px; 
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Helvetica;
+  font-color: #333333;
+}
+
+h2 {
+  font-size: 19px;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.7em;
+}
